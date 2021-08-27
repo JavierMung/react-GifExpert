@@ -1,13 +1,48 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(128, 213, 216);
+  border-bottom: none;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background:rgb(20, 32, 28);
+}
+
+button{
+  
+  color: black;
+}
+
+input{
+  width: 100%;
+  font-size: 1.2rem;
+  color: darkgray;
+}
+
+.Card{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.boxImages{
+  text-align: center;
+  align-content: center;
+ margin-left: 15px;
+ margin-right: 15px;
+
+}
+
+.animate__animated.animate__rubberBand {
+  --animate-duration: .5s;
+}
+
+.animate__animated.animate__slideInLeft{
+  --animate-delay: 0.5s;
+  --animate-duration: 1s;
+}
+
+.animate_animated.animate__shakeX{
+  --animate-duration: 1s;
 }
